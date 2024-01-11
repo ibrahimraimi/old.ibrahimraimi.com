@@ -7,25 +7,25 @@ type Props = Head;
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Ibrahim Raimi — Software Engineer";
+const DEFAULT_PAGE_TITLE = "Ibrahim Raimi — Software Engineer";
 const DEFAULT_PAGE_DESCRIPTION =
   "Software Engineer based in the not-so-stress-free city of Lagos, Nigeria focused on helping brands create interactive digital experiences on the web.";
 const DEFAULT_SITE_URL = SITE_URL;
 
 const openGraph = {
-  title: title || og.title || DEFAULT_TITLE_PAGE,
-  type: og.type || "website",
+  title: title || og?.title || DEFAULT_PAGE_TITLE,
+  type: og?.type || "website",
   image: og?.image || "/opengraph-image.png",
-  alt: og.alt || "Ibrahim Raimi website image",
+  alt: og?.alt || "Ibrahim Raimi website image",
   url: DEFAULT_SITE_URL,
-  description: og.description || DEFAULT_PAGE_DESCRIPTION,
+  description: og?.description || DEFAULT_PAGE_DESCRIPTION,
 };
 ---
 
 <head>
   <SEO
     charset="UTF-8"
-    title={title || DEFAULT_TITLE_PAGE}
+    title={title || DEFAULT_PAGE_TITLE}
     description={description || DEFAULT_PAGE_DESCRIPTION}
     noindex={noindex || false}
     openGraph={{
