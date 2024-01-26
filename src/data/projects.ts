@@ -8,7 +8,7 @@ const projects: Project[] = [
   },
   {
     title: "Bruno Arizio",
-    description: "Bruno Arizio portfolio.",
+    description: "Studio-BA® is a multidisciplinary design practice.",
     link: "https://brunoarizio.com",
   },
   {
