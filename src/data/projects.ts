@@ -1,11 +1,10 @@
 import type { Project } from "@/utils/types";
 
 const projects: Project[] = [
-    {
+  {
     title: "Korty Eniola",
-    description:
-      "A fan site for Korty Eniola",
-    link: "https://korty-eniola.netlify.app",
+    description: "A fan site for Korty Eniola",
+    link: "https://korty.ibrahimraimi.com",
   },
   {
     title: "Craftform",
