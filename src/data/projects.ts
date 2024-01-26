@@ -7,6 +7,11 @@ const projects: Project[] = [
     link: "https://korty.ibrahimraimi.com",
   },
   {
+    title: "Bruno Arizio",
+    description: "Bruno Arizio portfolio.",
+    link: "https://brunoarizio.com",
+  },
+  {
     title: "Craftform",
     description:
       "Craftform — the innovative form builder that redefines your business. Bid adieu to dull forms and welcome a dynamic approach to glean valuable insights.",
