@@ -15,8 +15,8 @@ const projects: Project[] = [
     title: "Craftform",
     description:
       "Craftform — the innovative form builder that redefines your business. Bid adieu to dull forms and welcome a dynamic approach to glean valuable insights.",
-    link: "",
-    isComingSoon: true,
+    link: "https://craftform.ibrahimraimi.com",
+    isComingSoon: false,
   },
   {
     title: "Astra Ecommerce",
