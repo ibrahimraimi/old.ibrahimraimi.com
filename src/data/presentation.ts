@@ -1,10 +1,10 @@
 import type { Presentation } from "@/utils/types";
 
 const presentation: Presentation = {
-  mail: "contact@ibrahimraimi.com",
+  name: "Ibrahim",
   title: "Hey there 👋, I'm Ibrahim",
   description:
-    "A software developer and occasional writer. As the mind behind Craftform, I'm committed to refining businesses through a dynamic approach to insightful web forms. When I'm not immersed in perfecting Craftform, I contribute and moderate content on *Dev.to*",
+    "A software developer and occasional writer. As the mind behind Craftform, I'm committed to refining businesses through a dynamic approach to insightful web forms. When I'm not immersed in perfecting Craftform, I contribute and moderate content on Dev.to",
   socials: [
     {
       label: "Twitter",

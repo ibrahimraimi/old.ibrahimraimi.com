@@ -73,9 +73,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
-          Software I'm currently building
-        </h3>
+        <h3 class="text-lg text-neutral-100">Projects</h3>
       </header>
       {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
 
@@ -93,8 +91,8 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       </header>
       <p>
         Email me at <Link
-          href={`mailto:${presentation.mail}`}
-          label={presentation.mail}
+          href="mailto:raimiibrahim44@gmail.com"
+          label="raimiibrahim44@gmail.com"
         /> or follow me via my social links.
       </p>
 

@@ -42,7 +42,7 @@ export type Social = {
 };
 
 export type Presentation = {
-  mail: string;
+  name: string;
   title: string;
   description: string;
   socials: Social[];
