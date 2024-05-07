@@ -15,7 +15,7 @@ const projects: Project[] = [
   },
  {
     title: "Shola Oladunjoye",
-    description: "A portfolio website for a brand designer - still underdevelopment",
+    description: "A portfolio website for a brand designer - still under development",
     link: "https://shola.ibrahimraimi.com",
   },
   {
