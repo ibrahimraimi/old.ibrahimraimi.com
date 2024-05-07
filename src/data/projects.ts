@@ -13,6 +13,11 @@ const projects: Project[] = [
     description: "A fan site for Korty Eniola",
     link: "https://korty.ibrahimraimi.com",
   },
+ {
+    title: "Shola Oladunjoye",
+    description: "A portfolio website for a brand designer - still underdevelopment",
+    link: "https://shola.ibrahimraimi.com",
+  },
   {
     title: "BlankBox",
     description: "kickstart your frontend project with little effort.",
